@@ -15,7 +15,7 @@ A sleek productivity plugin for Zsh — designed to boost developer flow with au
 ### Oh My Zsh
 
 1.  Fetch git 
-git clone https://github.com/faroncoder/rise-zsh ~/.oh-my-zsh/custom/plugins/rise-zsh
+git clone https://github.com/signavision/rise-zsh ~/.oh-my-zsh/custom/plugins/rise-zsh
 
 2. Install directly
 cd zsh_rise
