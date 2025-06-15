@@ -14,22 +14,31 @@ A sleek productivity plugin for Zsh — designed to boost developer flow with au
 
 ### Oh My Zsh
 
-git clone https://github.com/YOURNAME/rise-zsh ~/.oh-my-zsh/custom/plugins/rise-zsh
+1.  Fetch git 
+git clone https://github.com/faroncoder/rise-zsh ~/.oh-my-zsh/custom/plugins/rise-zsh
 
+2. Install directly
+cd zsh_rise
+chmod +x install.sh
+./install.sh
 
-#For .zshrc
-plugins+=(rise-zsh)
+3. provide inputs to interactive script to set up for you.
 
+Options:
+-Oh-My-ZSH plugin
+-zgen
+-zinit
+-zsnap
+-zcomet
+-zplug
+-zmodule
+-zsh
 
-#For zinit
-zinit light YOURNAME/rise-zsh
+4. exit the terminal session and begin new session.
 
-#For Znap
-znap source YOURNAME/rise-zsh
+5. Voila! You are done.
 
-#Manual
-git clone https://github.com/YOURNAME/rise-zsh ~/.zsh_plugins/rise-zsh
-echo "source ~/.zsh_plugins/rise-zsh/rise.plugin.zsh" >> ~/.zshrc
+6. Happy coding!
 
 
 📄 License
@@ -40,20 +49,14 @@ Rise Zsh is released under a hybrid license:
 📚 Portions adapted from the following open-source projects retain their original licenses and attribution requirements:
 
 zsh-z by agkozak – MIT
-
 zsh-autosuggestions – MIT
-
 zsh-syntax-highlighting – BSD 3-Clause
-
 Powerlevel10k by romkatv – MIT
 
 ➡️ Use of the full plugin must comply with these licenses.
-
 To request commercial support or ask about licensing Jeff’s original code separately, email:
 📩 jeff.panasuik@gmail.com
-
 ---
-
 🔔 Commercial License Grant:
 An exception to the above non-commercial terms is granted to:
 **SignaVision Solutions Inc.**  
